@@ -39,8 +39,8 @@ public class Main {
 
             switch (opcion){
                 case '1' :
-                    double audRate = conversionRates.get("PEN").getAsDouble();
-                    convertidor(audRate, "Soles Peruanos");
+                    double valorPen = conversionRates.get("PEN").getAsDouble();
+                    convertidor(valorPen, "Soles Peruanos");
                     break;
                 case '2' :
                     double valorMxn =  conversionRates.get("MXN").getAsDouble();
